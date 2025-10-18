@@ -54,8 +54,8 @@ POST /api/auth/register/
 Body (JSON):
 
 {
-  "username": "omar",
-  "email": "omar@example.com",
+  "username": "omar2",
+  "email": "omar2@example.com",
   "password": "strongpass123",
   "password2": "strongpass123"
 }
@@ -68,7 +68,7 @@ POST /api-token-auth/
 Body (JSON):
 
 {
-  "username": "omar",
+  "username": "omar2",
   "password": "strongpass123"
 }
 
@@ -79,7 +79,7 @@ Create a Task
 POST /api/tasks/
 Headers:
 
-Authorization: Token your_token
+Authorization: Token 
 Content-Type: application/json
 
 
@@ -98,7 +98,8 @@ List All Tasks
 GET /api/tasks/
 Header:
 
-Authorization: Token your_token
+Authorization: Token 
+
 
 
 *******************************************************
@@ -107,7 +108,7 @@ Update a Task
 PATCH /api/tasks/<id>/
 Header:
 
-Authorization: Token your_token
+Authorization: Token 
 
 
 Body:
@@ -123,15 +124,15 @@ Delete a Task
 DELETE /api/tasks/<id>/
 Header:
 
-Authorization: Token your_token
+Authorization: Token 
 
 
 
 *******************************************************
-Endpoints
+Endpoints (Not finished)
 
 Logout endpoint:
 POST /api/auth/logout/
 Header:
 
-Authorization: Token your_token
+Authorization: Token 
