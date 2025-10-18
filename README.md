@@ -44,6 +44,7 @@ http://127.0.0.1:8000/
 
 
 
+
 Testing in Postman
 
 *******************************************************
@@ -54,8 +55,8 @@ POST /api/auth/register/
 Body (JSON):
 
 {
-  "username": "omar2",
-  "email": "omar2@example.com",
+  "username": "omar3",
+  "email": "omar3@example.com",
   "password": "strongpass123",
   "password2": "strongpass123"
 }
@@ -68,7 +69,7 @@ POST /api-token-auth/
 Body (JSON):
 
 {
-  "username": "omar2",
+  "username": "omar3",
   "password": "strongpass123"
 }
 
